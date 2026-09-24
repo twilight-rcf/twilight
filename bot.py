@@ -64,8 +64,8 @@ async def process_verification(callback: types.CallbackQuery):
         
         # Меняем сообщение в чате с ботом
         await callback.message.edit_text(
-            "✅ **Спасибо, ваша заявка в канал принята!**\n"
-            "Можете переходить к просмотру публикаций."
+            "✅ заявка в канал принята.\n"
+            "можете переходить в канал.."
         )
         await callback.answer("Успешно!")
         
